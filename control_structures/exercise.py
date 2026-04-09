@@ -55,3 +55,29 @@ pets=["cat", "dog", "hamster", "parrot"]
 for person in people:
     for pet in pets:
         print(f"{person} has a {pet}")
+
+
+food=["pizza", "sushi", "burger", "salad"]
+for item in food:
+    if item=="sushi":
+        print("I love sushi!")
+        break
+else:
+    print("item not found in the list.")
+
+
+fruits=["apple", "banana", "orange", "grape"]
+vegies=["carrot", "broccoli", "spinach", "pepper"]
+meat=["chicken", "beef", "pork", "fish"]
+
+item="carrot"
+
+match item:
+    case _ if item in fruits:
+        print(f"{item} is a fruit.")
+    case _ if item in vegies:
+        print(f"{item} is a vegetable.")
+    case _ if item in meat:
+        print(f"{item} is a meat.")
+    case _:
+            print(f"{item} is not found in any category.")
