@@ -31,6 +31,8 @@ for vehicle in vehicles:
         if num % 2 !=0:
             continue
         print(num)
+
+
 total=0
 num=1
 
@@ -66,7 +68,7 @@ else:
     print("item not found in the list.")
 
 
-fruits=["apple", "banana", "orange", "grape"]
+fruits=["apple","carrot","banana", "orange", "grape"]
 vegies=["carrot", "broccoli", "spinach", "pepper"]
 meat=["chicken", "beef", "pork", "fish"]
 
