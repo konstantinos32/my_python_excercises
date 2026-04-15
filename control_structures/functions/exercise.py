@@ -12,7 +12,7 @@ print(sum_list(numbers))
 #2
 
 def repeat_greeting(name, times):
-    for _ in range(times):
+    for  _ in range(times):
         print(f"Hello, {name}!")
 
 repeat_greeting("kostas", 3)
